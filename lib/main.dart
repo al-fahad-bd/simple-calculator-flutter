@@ -18,14 +18,15 @@ class _CalculatorState extends State<Calculator> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
 
       theme: ThemeData(fontFamily: 'Teko'),
 
       home: Scaffold(
           appBar: AppBar(
             centerTitle: true,
-            backgroundColor: Color(0xFFF2789F),
-            title: Text(
+            backgroundColor: const Color(0xFF00BFA5),
+            title: const Text(
               'Simple Calculator',
               style: TextStyle(
                 fontSize: 30.0,
@@ -47,7 +48,7 @@ class _CalculatorState extends State<Calculator> {
                       children: [
                         Text(
                           input,
-                          style: TextStyle(
+                          style: const TextStyle(
                             fontSize: 40.0,
                             fontFamily: 'Comfortaa',
                             color: Colors.black54,
@@ -56,7 +57,7 @@ class _CalculatorState extends State<Calculator> {
                         ),
                         Text(
                           resultFinal,
-                          style: TextStyle(
+                          style: const TextStyle(
                             fontSize: 40.0,
                             fontFamily: 'Comfortaa',
                             color: Colors.black54,
@@ -105,7 +106,8 @@ class _CalculatorState extends State<Calculator> {
                           });
                         },
                         child: Container(
-                          child: Text(
+                          margin: const EdgeInsets.all(2.0),
+                          child: const Text(
                             '1',
                             style: TextStyle(
                               fontSize: 36.0,
@@ -113,7 +115,7 @@ class _CalculatorState extends State<Calculator> {
                               color: Colors.black54,
                             ),
                           ),
-                          color: Color(0xFFF2789F),
+                          color: const Color(0xFF00BFA5),
                           alignment: Alignment.center,
                         ),
                       ),
@@ -149,7 +151,8 @@ class _CalculatorState extends State<Calculator> {
                           });
                         },
                         child: Container(
-                          child: Text(
+                          margin: const EdgeInsets.all(2.0),
+                          child: const Text(
                             '2',
                             style: TextStyle(
                               fontSize: 36.0,
@@ -157,7 +160,7 @@ class _CalculatorState extends State<Calculator> {
                               color: Colors.black54,
                             ),
                           ),
-                          color: Color(0xFFF999B7),
+                          color: const Color(0xFF1DE9B6),
                           alignment: Alignment.center,
                         ),
                       ),
@@ -193,7 +196,8 @@ class _CalculatorState extends State<Calculator> {
                           });
                         },
                         child: Container(
-                          child: Text(
+                        margin: const EdgeInsets.all(2.0),
+                          child: const Text(
                             '3',
                             style: TextStyle(
                               fontSize: 36.0,
@@ -201,7 +205,7 @@ class _CalculatorState extends State<Calculator> {
                               color: Colors.black54,
                             ),
                           ),
-                          color: Color(0xFFF9C5D5),
+                          color: const Color(0xFF64FFDA),
                           alignment: Alignment.center,
                         ),
                       ),
@@ -242,7 +246,8 @@ class _CalculatorState extends State<Calculator> {
                           });
                         },
                         child: Container(
-                          child: Text(
+                          margin: const EdgeInsets.all(2.0),
+                          child: const Text(
                             '+',
                             style: TextStyle(
                               fontSize: 36.0,
@@ -250,7 +255,7 @@ class _CalculatorState extends State<Calculator> {
                               color: Colors.black54,
                             ),
                           ),
-                          color: Color(0xFFFEE3EC),
+                          color: const Color(0xFFA7FFEB),
                           alignment: Alignment.center,
                         ),
                       ),
@@ -294,7 +299,8 @@ class _CalculatorState extends State<Calculator> {
                           });
                         },
                         child: Container(
-                          child: Text(
+                          margin: const EdgeInsets.all(2.0),
+                          child: const Text(
                             '4',
                             style: TextStyle(
                               fontSize: 36.0,
@@ -302,7 +308,7 @@ class _CalculatorState extends State<Calculator> {
                               color: Colors.black54,
                             ),
                           ),
-                          color: Color(0xFFFEE3EC),
+                          color: const Color(0xFFA7FFEB),
                           alignment: Alignment.center,
                         ),
                       ),
@@ -338,7 +344,8 @@ class _CalculatorState extends State<Calculator> {
                           });
                         },
                         child: Container(
-                          child: Text(
+                          margin: const EdgeInsets.all(2.0),
+                          child: const Text(
                             '5',
                             style: TextStyle(
                               fontSize: 36.0,
@@ -346,7 +353,7 @@ class _CalculatorState extends State<Calculator> {
                               color: Colors.black54,
                             ),
                           ),
-                          color: Color(0xFFF9C5D5),
+                          color: const Color(0xFF64FFDA),
                           alignment: Alignment.center,
                         ),
                       ),
@@ -382,7 +389,8 @@ class _CalculatorState extends State<Calculator> {
                           });
                         },
                         child: Container(
-                          child: Text(
+                          margin: const EdgeInsets.all(2.0),
+                          child: const Text(
                             '6',
                             style: TextStyle(
                               fontSize: 36.0,
@@ -390,7 +398,7 @@ class _CalculatorState extends State<Calculator> {
                               color: Colors.black54,
                             ),
                           ),
-                          color: Color(0xFFF999B7),
+                          color: const Color(0xFF1DE9B6),
                           alignment: Alignment.center,
                         ),
                       ),
@@ -430,7 +438,8 @@ class _CalculatorState extends State<Calculator> {
                           });
                         },
                         child: Container(
-                          child: Text(
+                          margin: const EdgeInsets.all(2.0),
+                          child: const Text(
                             '-',
                             style: TextStyle(
                               fontSize: 36.0,
@@ -438,7 +447,7 @@ class _CalculatorState extends State<Calculator> {
                               color: Colors.black54,
                             ),
                           ),
-                          color: Color(0xFFF2789F),
+                          color: const Color(0xFF00BFA5),
                           alignment: Alignment.center,
                         ),
                       ),
@@ -482,7 +491,8 @@ class _CalculatorState extends State<Calculator> {
                           });
                         },
                         child: Container(
-                          child: Text(
+                          margin: const EdgeInsets.all(2.0),
+                          child: const Text(
                             '7',
                             style: TextStyle(
                               fontSize: 36.0,
@@ -490,7 +500,7 @@ class _CalculatorState extends State<Calculator> {
                               color: Colors.black54,
                             ),
                           ),
-                          color: Color(0xFFF2789F),
+                          color: const Color(0xFF00BFA5),
                           alignment: Alignment.center,
                         ),
                       ),
@@ -526,7 +536,8 @@ class _CalculatorState extends State<Calculator> {
                           });
                         },
                         child: Container(
-                          child: Text(
+                          margin: const EdgeInsets.all(2.0),
+                          child: const Text(
                             '8',
                             style: TextStyle(
                               fontSize: 36.0,
@@ -534,7 +545,7 @@ class _CalculatorState extends State<Calculator> {
                               color: Colors.black54,
                             ),
                           ),
-                          color: Color(0xFFF999B7),
+                          color: const Color(0xFF1DE9B6),
                           alignment: Alignment.center,
                         ),
                       ),
@@ -570,7 +581,8 @@ class _CalculatorState extends State<Calculator> {
                           });
                         },
                         child: Container(
-                          child: Text(
+                          margin: const EdgeInsets.all(2.0),
+                          child: const Text(
                             '9',
                             style: TextStyle(
                               fontSize: 36.0,
@@ -578,7 +590,7 @@ class _CalculatorState extends State<Calculator> {
                               color: Colors.black54,
                             ),
                           ),
-                          color: Color(0xFFF9C5D5),
+                          color: const Color(0xFF64FFDA),
                           alignment: Alignment.center,
                         ),
                       ),
@@ -618,7 +630,8 @@ class _CalculatorState extends State<Calculator> {
                           });
                         },
                         child: Container(
-                          child: Text(
+                          margin: const EdgeInsets.all(2.0),
+                          child: const Text(
                             '*',
                             style: TextStyle(
                               fontSize: 36.0,
@@ -626,7 +639,7 @@ class _CalculatorState extends State<Calculator> {
                               color: Colors.black54,
                             ),
                           ),
-                          color: Color(0xFFFEE3EC),
+                          color: const Color(0xFFA7FFEB),
                           alignment: Alignment.center,
                         ),
                       ),
@@ -670,7 +683,8 @@ class _CalculatorState extends State<Calculator> {
                           });
                         },
                         child: Container(
-                          child: Text(
+                          margin: const EdgeInsets.all(2.0),
+                          child: const Text(
                             '0',
                             style: TextStyle(
                               fontSize: 36.0,
@@ -678,7 +692,7 @@ class _CalculatorState extends State<Calculator> {
                               color: Colors.black54,
                             ),
                           ),
-                          color: Color(0xFFFEE3EC),
+                          color: const Color(0xFFA7FFEB),
                           alignment: Alignment.center,
                         ),
                       ),
@@ -696,7 +710,8 @@ class _CalculatorState extends State<Calculator> {
                           });
                         },
                         child: Container(
-                          child: Text(
+                          margin: const EdgeInsets.all(2.0),
+                          child: const Text(
                             'C',
                             style: TextStyle(
                               fontSize: 36.0,
@@ -704,7 +719,7 @@ class _CalculatorState extends State<Calculator> {
                               color: Colors.black54,
                             ),
                           ),
-                          color: Color(0xFFF9C5D5),
+                          color: const Color(0xFF64FFDA),
                           alignment: Alignment.center,
                         ),
                       ),
@@ -760,7 +775,8 @@ class _CalculatorState extends State<Calculator> {
                           });
                         },
                         child: Container(
-                          child: Text(
+                          margin: const EdgeInsets.all(2.0),
+                          child: const Text(
                             '=',
                             style: TextStyle(
                               fontSize: 36.0,
@@ -768,7 +784,7 @@ class _CalculatorState extends State<Calculator> {
                               color: Colors.black54,
                             ),
                           ),
-                          color: Color(0xFFF999B7),
+                          color: const Color(0xFF1DE9B6),
                           alignment: Alignment.center,
                         ),
                       ),
@@ -808,7 +824,8 @@ class _CalculatorState extends State<Calculator> {
                           });
                         },
                         child: Container(
-                          child: Text(
+                          margin: const EdgeInsets.all(2.0),
+                          child: const Text(
                             '/',
                             style: TextStyle(
                               fontSize: 36.0,
@@ -816,7 +833,7 @@ class _CalculatorState extends State<Calculator> {
                               color: Colors.black54,
                             ),
                           ),
-                          color: Color(0xFFF2789F),
+                          color: const Color(0xFF00BFA5),
                           alignment: Alignment.center,
                         ),
                       ),
