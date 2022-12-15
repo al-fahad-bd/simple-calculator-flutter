@@ -2,7 +2,7 @@
 
 ## Flutter project.
 
-This is a basic android application.
+### This is a basic android application.
 
 A few resources to get started Flutter project:
 
