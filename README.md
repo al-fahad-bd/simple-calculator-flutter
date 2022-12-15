@@ -1,6 +1,6 @@
 # simple_calculator
 
-##Flutter project.
+## Flutter project.
 
 This is a basic android application.
 
